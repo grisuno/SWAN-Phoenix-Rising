@@ -1,5 +1,5 @@
- 🚀 SWAN v5.1: Phoenix Rise (Adaptive L1 to fix Psi Death) - FIXED
-====================================================================================================
+```text
+🚀 SWAN v5.1: Phoenix Rise (Adaptive L1 to fix Psi Death) 
 📥 Descargando Dataset...
 Using Colab cache for faster access to the 'elliptic-data-set' dataset.
 ✅ Datos cargados: 46564 nodos.
@@ -2236,3 +2236,4 @@ Using Colab cache for faster access to the 'elliptic-data-set' dataset.
       [Ep 320] AUPRC: 0.9868 | ψ: 3.722 | F: 476.4 | LC: 14.538 | [STD] | Time: 15.8s
       [Ep 340] AUPRC: 0.9874 | ψ: 3.680 | F: 471.0 | LC: 14.925 | [STD] | Time: 16.8s
       [Ep 360] AUPRC: 0.9893 | ψ: 3.678 | F: 470.8 | LC: 14.272 | [STD] | Time: 17.8s
+```
