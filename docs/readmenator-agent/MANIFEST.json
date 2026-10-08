@@ -1,0 +1,109 @@
+{
+  "tool": "readmenator",
+  "schema_version": 2,
+  "generated_at": "2026-10-08T01:34:47Z",
+  "project_root": ".",
+  "project_name": "readmenator_SWAN-Phoenix-Rising_u3n8bz9q",
+  "git_commit": "498359f6b6f583ec71dced55c329e6c2379ae4ba",
+  "git_branch": "main",
+  "source_fingerprint": "5b664e7db993942ec4c0bece26fae3ab350440033a6711d012b9659c01759e3b",
+  "freshness_check": "readmenator . fresh  # exit 0 = docs match sources, exit 1 = run: readmenator . --rebuild",
+  "files": 2,
+  "symbols": 19,
+  "imports": 17,
+  "calls": 202,
+  "inherits": 3,
+  "resolved_imports": 0,
+  "security_findings": 0,
+  "languages": {
+    "py": 1,
+    "sh": 1
+  },
+  "subsystems": {
+    "root": 2
+  },
+  "entrypoints": [
+    "app.py"
+  ],
+  "start_here": "INDEX.md",
+  "read_order": [
+    "readmenator-wiki/index.md  # big picture, communities, god nodes",
+    "readmenator-agent/INDEX.md  # file -> purpose -> used-by count",
+    "readmenator-agent/GOTCHAS.md  # blast radius before editing",
+    "readmenator-agent/KB_<subsystem>.md  # only the subsystem you touch"
+  ],
+  "workflow": [
+    "ls *.md readmenator-*/  # orient: docs first, ignore build noise",
+    "grep -n '<keyword>' INDEX*.md SYMBOLS*.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE*.md API*.md"
+  ],
+  "documents": [
+    {
+      "path": "API.md",
+      "lines": 18,
+      "approx_tokens": 388
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "lines": 9,
+      "approx_tokens": 77
+    },
+    {
+      "path": "CONCEPTS.md",
+      "lines": 3,
+      "approx_tokens": 8
+    },
+    {
+      "path": "GOTCHAS.md",
+      "lines": 13,
+      "approx_tokens": 86
+    },
+    {
+      "path": "INDEX.md",
+      "lines": 6,
+      "approx_tokens": 68
+    },
+    {
+      "path": "KB_root.md",
+      "lines": 30,
+      "approx_tokens": 433
+    },
+    {
+      "path": "SECURITY.md",
+      "lines": 3,
+      "approx_tokens": 10
+    },
+    {
+      "path": "SYMBOLS.md",
+      "lines": 23,
+      "approx_tokens": 434
+    },
+    {
+      "path": "recipes/add-function.md",
+      "lines": 9,
+      "approx_tokens": 99
+    },
+    {
+      "path": "recipes/change-impact.md",
+      "lines": 7,
+      "approx_tokens": 94
+    },
+    {
+      "path": "recipes/fix-cycle.md",
+      "lines": 6,
+      "approx_tokens": 65
+    },
+    {
+      "path": "recipes/fix-security.md",
+      "lines": 6,
+      "approx_tokens": 69
+    },
+    {
+      "path": "recipes/reduce-complexity.md",
+      "lines": 9,
+      "approx_tokens": 70
+    }
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
