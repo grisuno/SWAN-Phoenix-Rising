@@ -1,18 +1,49 @@
 # API
 
 ## app.py
-- `get_e8_lattice` (function) `app.py:38` `def get_e8_lattice()`
-- `RigidSAE.__init__` (method) `app.py:64` `def __init__(self, d_model, d_sae)`
-- `RigidSAE.forward` (method) `app.py:73` `def forward(self, h)`
-- `RigidSAE.compute_psi_metrics` (method) `app.py:80` `def compute_psi_metrics(self, z)` -- Implementación de las Ecuaciones (6), (7) y (8) de la teoría.
-- `RigidSAE.get_sparsity_loss` (method) `app.py:107` `def get_sparsity_loss(self, z)`
-- `SplineComplexityManager.__init__` (method) `app.py:118` `def __init__(self, threshold)`
-- `SplineComplexityManager.compute_complexity` (method) `app.py:121` `def compute_complexity(self, pre_acts_list)`
-- `FastGCNLayer.__init__` (method) `app.py:135` `def __init__(self, in_features, out_features, edge_index, num_nodes)`
-- `FastGCNLayer.forward` (method) `app.py:148` `def forward(self, x)`
-- `SwanEllipticGNN_v51.__init__` (method) `app.py:153` `def __init__(self, input_dim, hidden_dim, edge_index, num_nodes, dropout)`
-- `SwanEllipticGNN_v51.evolve_topology` (method) `app.py:185` `def evolve_topology(self, gap)`
-- `SwanEllipticGNN_v51.forward` (method) `app.py:198` `def forward(self, x, edge_index)`
-- `SwanEllipticGNN_v51.load_elliptic_data` (method) `app.py:229` `def load_elliptic_data()`
-- `SwanEllipticGNN_v51.train_and_evaluate_v51` (method) `app.py:260` `def train_and_evaluate_v51(X_raw, y, edge_index, train_idx, val_idx, epochs, name)`
-- `SwanEllipticGNN_v51.temporal_cross_validate` (method) `app.py:372` `def temporal_cross_validate(X_raw, y, edge_index, timestep)`
+
+### get_e8_lattice (function) `def get_e8_lattice()`
+- Defined: `app.py:38`
+
+### load_elliptic_data (method) `def load_elliptic_data()`
+- Defined: `app.py:229`
+
+### train_and_evaluate_v51 (method) `def train_and_evaluate_v51(X_raw, y, edge_index, train_idx, val_idx, epochs, name)`
+- Defined: `app.py:260`
+
+### temporal_cross_validate (method) `def temporal_cross_validate(X_raw, y, edge_index, timestep)`
+- Defined: `app.py:372`
+
+### __init__ (method) `def __init__(self, d_model, d_sae)`
+- Defined: `app.py:64`
+
+### forward (method) `def forward(self, h)`
+- Defined: `app.py:73`
+
+### compute_psi_metrics (method) `def compute_psi_metrics(self, z)`
+- Defined: `app.py:80`
+- Doc: Implementación de las Ecuaciones (6), (7) y (8) de la teoría.
+
+### get_sparsity_loss (method) `def get_sparsity_loss(self, z)`
+- Defined: `app.py:107`
+
+### __init__ (method) `def __init__(self, threshold)`
+- Defined: `app.py:118`
+
+### compute_complexity (method) `def compute_complexity(self, pre_acts_list)`
+- Defined: `app.py:121`
+
+### __init__ (method) `def __init__(self, in_features, out_features, edge_index, num_nodes)`
+- Defined: `app.py:135`
+
+### forward (method) `def forward(self, x)`
+- Defined: `app.py:148`
+
+### __init__ (method) `def __init__(self, input_dim, hidden_dim, edge_index, num_nodes, dropout)`
+- Defined: `app.py:153`
+
+### evolve_topology (method) `def evolve_topology(self, gap)`
+- Defined: `app.py:185`
+
+### forward (method) `def forward(self, x, edge_index)`
+- Defined: `app.py:198`

@@ -1,6 +1,6 @@
 # Index
 
-| File | Purpose | Subsystem | Symbols | Used by |
-|------|---------|-----------|---------|---------|
-| `app.py` | Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación... | root | 19 | 0 |
-| `install.sh` | - | root | 0 | 0 |
+| File | Purpose | Subsystem | Symbols |
+|------|---------|-----------|---------|
+| `app.py` | app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]c | root | 19 |
+| `install.sh` | - | root | 0 |
